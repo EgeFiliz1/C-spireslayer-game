@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: gokceuludogan/cmpe230-spring26:latest
+      options: --user 0
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
